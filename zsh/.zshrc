@@ -26,7 +26,7 @@ alias mkcd='f() { mkdir $1 && cd $1 };f'
 alias sz='source ~/.zshrc'
 alias cz='code ~/.zshrc'
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# ruby
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # node
