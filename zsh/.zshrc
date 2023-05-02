@@ -12,11 +12,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   zprezto-update
 fi
 
-# Theme
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
 # Aliases
 alias p='python3'
 alias y='yarn'
@@ -24,7 +19,6 @@ alias p='pnpm'
 alias pi='p i'
 alias v='vercel'
 alias vd='f() { vercel deploy $1 };f'
-alias mkcd='f() { mkdir $1 && cd $1 };f'
 alias sz='source ~/.zshrc'
 alias cz='code ~/.zshrc'
 
